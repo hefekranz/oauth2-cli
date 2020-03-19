@@ -1,0 +1,10 @@
+{
+  "id": "your-app",
+  "type": "authorization_code",
+  "clientId": "your-client",
+  "oauth2AuthUrl": "https://auth.someDomain/auth/oauth2/auth",
+  "oauth2TokenUrl": "https://auth.someDomain/auth/oauth2/token",
+  "redirectUrl": "http://localhost:2000/auth/success",
+  "scope":"openid offline",
+  "clientSecret": "plsChangeThis"
+}
